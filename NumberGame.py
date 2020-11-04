@@ -1,5 +1,6 @@
 print("Welcome the Number Guessing game")
 print("You have 5 attempts to guess the number")
+num = 20
 user_attempts = 0
 while(user_attempts != 5):
     user_input = int(input("Input Your guess: "))
